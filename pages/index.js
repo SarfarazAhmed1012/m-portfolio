@@ -221,12 +221,11 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div className=" text-center p-10 text-2xl">
+          <div className=" text-center p-10 text-2xl ">
             <Button
               onClick={handleOpen}
               variant="outlined"
-              className=" font-burtons sm:text-sm md:text-lg bg-gradient-to-r from-cyan-500 to-teal-600 text-white px-4 py-2 rounded-md lg:ml-8 md:ml-8 sm:ml-2
-              "
+              className=" pt-3 w-96 h-15 m-10 font-burtons sm:text-sm md:text-lg bg-gradient-to-r from-cyan-500 to-teal-600 text-white px-4 py-2 rounded-md lg:ml-8 md:ml-8 sm:ml-2"
             >
               Contact me
             </Button>
